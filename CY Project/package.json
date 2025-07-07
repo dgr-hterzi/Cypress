@@ -1,0 +1,11 @@
+{
+  "name": "turib-cypress-test-demo",
+  "devDependencies": {
+    "cypress": "^14.5.1",
+    "cypress-real-events": "^1.14.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "scripts": {
+    "cy:run-dashboard": "cypress run --record --key e2f40836-d405-4d55-8f5b-95c182f962f3"
+  }
+}
