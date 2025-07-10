@@ -13,24 +13,23 @@ npm (Node.js ile birlikte gelir) veya Yarn
 Depoyu klonlayın:
 
 Bash
-
 git clone https://github.com/dgr-hterzi/Cypress.git
 cd Cypress
-Bağımlılıkları yükleyin:
 
+# Bağımlılıkları yükleyin:
 Bash
-
 npm install
-# veya
+ veya
 yarn install
-🧪 Testleri Çalıştırma
+
+
+# 🧪 Testleri Çalıştırma
 Testleri farklı modlarda çalıştırabilirsiniz:
 
 Cypress Test Runner ile Çalıştırma (Etkileşimli Mod)
 Bu mod, testleri adım adım izlemenize ve hata ayıklamanıza olanak tanır.
 
 Bash
-
 npx cypress open
 Bu komut Cypress Test Runner'ı başlatacak ve test dosyalarınızı (specs) seçebileceğiniz bir arayüz açacaktır.
 
@@ -38,13 +37,12 @@ Komut Satırı Üzerinden Çalıştırma (Headless Mod)
 Testleri başsız (headless) modda, yani tarayıcı arayüzü olmadan çalıştırmak için kullanışlıdır. CI/CD ortamları için idealdir.
 
 Bash
-
 npx cypress run
 Belirli bir testi çalıştırmak için:
 
 Bash
-
 npx cypress run --spec "cypress/e2e/example.cy.js"
+
 Tarayıcı Seçerek Çalıştırma
 Testleri belirli bir tarayıcıda çalıştırmak için --browser bayrağını kullanın:
 
@@ -72,7 +70,9 @@ Cypress/
 ├── cypress.config.js     # Cypress yapılandırma dosyası
 ├── package.json          # Proje bağımlılıkları ve script'ler
 └── README.md             # Bu dosya
-🤝 Katkıda Bulunma
+
+
+# 🤝 Katkıda Bulunma
 Katkılarınız her zaman açığız! Eğer bir hata bulursanız veya bir özellik eklemek isterseniz, lütfen aşağıdaki adımları izleyin:
 
 Depoyu çatallayın (fork).
